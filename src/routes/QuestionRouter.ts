@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from 'express'
-const Questions = require('../data/data');
+const Questions = require('../data/question-data');
 
 export class QuestionRouter {
     router: Router;
