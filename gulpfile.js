@@ -20,4 +20,6 @@ gulp.task('watch', ['copy-data', 'scripts'], () => {
   gulp.watch('src/**/*.ts', ['scripts']);
 });
 
+gulp.task('build', ['copy-data', 'scripts']);
+
 gulp.task('default', ['watch']);
