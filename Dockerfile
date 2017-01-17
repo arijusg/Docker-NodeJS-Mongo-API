@@ -1,5 +1,8 @@
 FROM node:boron
 
+# Lets run node in production env
+ENV NODE_ENV=production
+
 # Install global dependencies
 RUN npm install -g gulp
 
