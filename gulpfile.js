@@ -10,7 +10,13 @@ gulp.task('scripts', () => {
   return tsResult.js.pipe(gulp.dest('dist'));
 });
 
-gulp.task('watch', ['scripts'], () => {
+gulp.task('copy-data', function() {
+  return gulp.src('./src/data/*.json')
+    .pipe(gulp.dest('./dist/data'));
+});
+
+gulp.task('watch', ['copy-data', 'scripts'], () => {
+  gulp.watch('src/data/*.json', ['copy-data']);
   gulp.watch('src/**/*.ts', ['scripts']);
 });
 
