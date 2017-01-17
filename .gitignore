@@ -6,3 +6,4 @@ npm-debug.log*
 # Other
 node_modules
 dist
+.vscode
