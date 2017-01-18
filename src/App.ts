@@ -4,6 +4,7 @@ import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
 
 import QuestionRouter from './routes/QuestionRouter';
+import CampaignRouter from './routes/CampaignRouter';
 
 // Creates and configures an ExpressJS web server.
 class App {
@@ -28,6 +29,7 @@ class App {
   // Configure API endpoints.
   private routes(): void {
     this.express.use('/api/v1/questions', QuestionRouter);
+    this.express.use('/api/v1/campaign', CampaignRouter);
   }
 }
 
