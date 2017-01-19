@@ -7,6 +7,8 @@ import * as mongoose from 'mongoose';
 
 import * as MongoConfig from './MongoConfig';
 
+import { db } from './db';
+
 import QuestionRouter from './routes/QuestionRouter';
 import HeroRouter from './routes/HeroRouter';
 
@@ -39,21 +41,8 @@ class App {
 
   // Configure DB
   private setupDatabase(): void {
-    mongoose.connect(MongoConfig.mongoUri[this.getNodeEnvironment()])
-    var db = mongoose.connection;
-    db.on('error', console.error.bind(console, 'connection error:'));
-    db.once('open', function () {
-      // we're connected!
-      console.log("We are connected");
-    });
-  }
-
-  private getNodeEnvironment(): string {
-    var nodeEnvironment: string;
-    nodeEnvironment = process.env.NODE_ENV;
-    if (nodeEnvironment === undefined) throw 'Set node environment first';
-    console.log('MODE:::: ' + process.env.NODE_ENV);
-    return nodeEnvironment;
+    var dbSetup = new db();
+    dbSetup.Open();
   }
 }
 

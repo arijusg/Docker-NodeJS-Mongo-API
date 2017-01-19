@@ -22,6 +22,11 @@ npm start
 npm test
 ```
 
+### Import initial data
+```bash
+NODE_ENV=development node dist/data/dataImporter.js
+```
+
 ## Build
 ### Run API in docker
 ```

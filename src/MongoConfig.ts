@@ -3,8 +3,9 @@ class MongooseConfig {
 }
 
 class MongoUri {
-    public development: string = 'mongodb://localhost/finq-testing';
-    public test: string = 'mongodb://localhost/test'
+    public production: string = 'mongodb://localhost/finq-production'
+    public development: string = 'mongodb://localhost/finq-development';
+    public test: string = 'mongodb://localhost/finq-test'
 }
 
 var MongoConfig = new MongooseConfig();

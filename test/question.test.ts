@@ -66,9 +66,9 @@ describe('GET api/v1/questions', () => {
     });
 
     afterEach(function (done) {
-        testDataProvider.Clean()
-            .then(() => done())
-            .catch((err) => done()); //If collection does not exist it throws
+         testDataProvider.Clean()
+             .then(() => done())
+             .catch((err) => done()); //If collection does not exist it throws
     });
 
     it('resonds with JSON array', () => {
