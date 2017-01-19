@@ -46,3 +46,8 @@ $ docker build -t <your username>/finq-campaign .
 ```bash
 $ docker run -p 49160:3000 -d --name finq-campaign <your username>/finq-campaign
 ```
+
+### Run MongoDB image
+```bash
+docker run --name finq-mongo -d -p 27017:27017 mongo
+```
