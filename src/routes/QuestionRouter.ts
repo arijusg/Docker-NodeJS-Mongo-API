@@ -1,5 +1,10 @@
 import { Router, Request, Response, NextFunction } from 'express'
-const Questions = require('../data/question-data');
+
+import * as Question from '../models/Question';
+import { IQuestionModel } from '../models/IQuestionModel';
+
+//const Questions = require('../data/question-data');
+
 
 export class QuestionRouter {
     router: Router;
@@ -10,7 +15,10 @@ export class QuestionRouter {
     }
 
     public getAll(req: Request, res: Response, next: NextFunction) {
-        res.send(Questions);
+        Question.find((err, questions: Array<IQuestionModel>) => {
+            if (err) return console.error(err);
+            res.send(questions);
+        });
     }
 
     init() {
