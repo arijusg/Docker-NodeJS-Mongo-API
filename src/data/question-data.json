@@ -1,7 +1,875 @@
 [
     {
-        "id": 1,
-        "title":"Some question",
-        "category": "Some Category"
+        "title": "Wat is je leeftijd?",
+        "category": "Demografische gegevens",
+        "answers": [
+            {
+                "title": "18-24"
+            },
+            {
+                "title": "25-34"
+            },
+            {
+                "title": "25-34"
+            },
+            {
+                "title": "35-44"
+            },
+            {
+                "title": "45-54"
+            },
+            {
+                "title": "55-64"
+            },
+            {
+                "title": "65-74"
+            }
+        ]
+    },
+    {
+        "title": "Wat is je geslacht?",
+        "category": "Demografische gegevens",
+        "answers": [
+            {
+                "title": "Man"
+            },
+            {
+                "title": "Vrouw"
+            }
+        ]
+    },
+    {
+        "title": "Hoe denk je dat jouw inkomen is vergeleken is met de gemiddelde Nederlander?",
+        "category": "Demografische gegevens",
+        "answers": [
+            {
+                "title": "Hoog"
+            },
+            {
+                "title": "Middelbaar"
+            },
+            {
+                "title": "Laag"
+            }
+        ]
+    },
+    {
+        "title": "In hoeverre heb je invloed op of neem je de financiële beslissingen in jouw huishouden?",
+        "category": "Demografische gegevens",
+        "answers": [
+            {
+                "title": "Niet"
+            },
+            {
+                "title": "Gezamenlijk"
+            },
+            {
+                "title": "Ik neem de beslissingen"
+            },
+            {
+                "title": "1-persoons huishouden"
+            }
+        ]
+    },
+    {
+        "title": "Wat is je hoogst genote opleiding?",
+        "category": "Demografische gegevens",
+        "answers": [
+            {
+                "title": "Hoog"
+            },
+            {
+                "title": "Gemiddeld"
+            },
+            {
+                "title": "Laag"
+            }
+        ]
+    },
+    {
+        "title": "Ik kan me een goede voorstelling maken van de hoogte van mijn inkomen na pensionering",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik weet wat ik nodig heb aan inkomen na mijn pensionering",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "???? Empty TODO",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Informatie over mijn pensioen lees ik goed door",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik vind het belangrijk om controle te hebben over mijn financiële situatie",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Het geeft mij voldoening om mijn financiële situatie op orde te hebben",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik wil graag al mijn financiële risico's zo klein mogelijk houden",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik vind het belangrijk om te weten hoeveel ik uitgeef",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik stel een bedrag per week of maand vast dat ik dan maximaal die periode mag uitgeven",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik bepaal zelf vooraf hoeveel ik kan besteden de komende maand",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik zet elke maand geld opzij voor als ik onverwachte kosten heb",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik spaar automatisch elke maand een bedrag",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Spaar je voor een doel of buffer?",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Hoeveel spaar je per maand?",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "€ <100"
+            },
+            {
+                "title": "€ >100"
+            },
+            {
+                "title": "€ >200"
+            },
+            {
+                "title": "€ >500"
+            },
+            {
+                "title": "€ >1000"
+            }
+        ]
+    },
+    {
+        "title": "Ik had in het afgelopen jaar een mislukte automatische incasso wegens onvoldoende saldo",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik sta elke maand rood op mijn betaalrekening",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik heb in het afgelopen jaar producten gekocht op afbetaling (gespreide betaling)",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Ik heb een hekel aan het bijhouden van mijn financiën",
+        "category": "Stellingen",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            }
+        ]
+    },
+    {
+        "title": "Hoe goed schat jij je financiële vaardigheden in, vergeleken met de gemiddelde Nederlander?",
+        "category": "Zelfinschatting",
+        "answers": [
+            {
+                "title": "1"
+            },
+            {
+                "title": "2"
+            },
+            {
+                "title": "3"
+            },
+            {
+                "title": "4"
+            },
+            {
+                "title": "5"
+            },
+            {
+                "title": "6"
+            },
+            {
+                "title": "7"
+            },
+            {
+                "title": "8"
+            },
+            {
+                "title": "9"
+            },
+            {
+                "title": "10"
+            },
+            {
+                "title": "11"
+            },
+            {
+                "title": "12"
+            },
+            {
+                "title": "13"
+            },
+            {
+                "title": "14"
+            },
+            {
+                "title": "15"
+            },
+            {
+                "title": "16"
+            },
+            {
+                "title": "17"
+            },
+            {
+                "title": "18"
+            },
+            {
+                "title": "19"
+            },
+            {
+                "title": "20"
+            },
+            {
+                "title": "21"
+            },
+            {
+                "title": "22"
+            },
+            {
+                "title": "23"
+            },
+            {
+                "title": "24"
+            },
+            {
+                "title": "25"
+            },
+            {
+                "title": "26"
+            },
+            {
+                "title": "27"
+            },
+            {
+                "title": "28"
+            },
+            {
+                "title": "29"
+            },
+            {
+                "title": "30"
+            },
+            {
+                "title": "31"
+            },
+            {
+                "title": "32"
+            },
+            {
+                "title": "33"
+            },
+            {
+                "title": "34"
+            },
+            {
+                "title": "35"
+            },
+            {
+                "title": "36"
+            },
+            {
+                "title": "37"
+            },
+            {
+                "title": "38"
+            },
+            {
+                "title": "39"
+            },
+            {
+                "title": "40"
+            },
+            {
+                "title": "41"
+            },
+            {
+                "title": "42"
+            },
+            {
+                "title": "43"
+            },
+            {
+                "title": "44"
+            },
+            {
+                "title": "45"
+            },
+            {
+                "title": "46"
+            },
+            {
+                "title": "47"
+            },
+            {
+                "title": "48"
+            },
+            {
+                "title": "49"
+            },
+            {
+                "title": "50"
+            },
+            {
+                "title": "51"
+            },
+            {
+                "title": "52"
+            },
+            {
+                "title": "53"
+            },
+            {
+                "title": "54"
+            },
+            {
+                "title": "55"
+            },
+            {
+                "title": "56"
+            },
+            {
+                "title": "57"
+            },
+            {
+                "title": "58"
+            },
+            {
+                "title": "59"
+            },
+            {
+                "title": "60"
+            },
+            {
+                "title": "61"
+            },
+            {
+                "title": "62"
+            },
+            {
+                "title": "63"
+            },
+            {
+                "title": "64"
+            },
+            {
+                "title": "65"
+            },
+            {
+                "title": "66"
+            },
+            {
+                "title": "67"
+            },
+            {
+                "title": "68"
+            },
+            {
+                "title": "69"
+            },
+            {
+                "title": "70"
+            },
+            {
+                "title": "71"
+            },
+            {
+                "title": "72"
+            },
+            {
+                "title": "73"
+            },
+            {
+                "title": "74"
+            },
+            {
+                "title": "75"
+            },
+            {
+                "title": "76"
+            },
+            {
+                "title": "77"
+            },
+            {
+                "title": "78"
+            },
+            {
+                "title": "79"
+            },
+            {
+                "title": "80"
+            },
+            {
+                "title": "81"
+            },
+            {
+                "title": "82"
+            },
+            {
+                "title": "83"
+            },
+            {
+                "title": "84"
+            },
+            {
+                "title": "85"
+            },
+            {
+                "title": "86"
+            },
+            {
+                "title": "87"
+            },
+            {
+                "title": "88"
+            },
+            {
+                "title": "89"
+            },
+            {
+                "title": "90"
+            },
+            {
+                "title": "91"
+            },
+            {
+                "title": "92"
+            },
+            {
+                "title": "93"
+            },
+            {
+                "title": "94"
+            },
+            {
+                "title": "95"
+            },
+            {
+                "title": "96"
+            },
+            {
+                "title": "97"
+            },
+            {
+                "title": "98"
+            },
+            {
+                "title": "99"
+            },
+            {
+                "title": "100"
+            }
+        ]
     }
 ]
