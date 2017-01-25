@@ -23,6 +23,9 @@ RUN npm test
 # Build
 RUN gulp build
 
+# Import initial data TODO: part of compose
+#RUN gulp import-data --prod
+
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
