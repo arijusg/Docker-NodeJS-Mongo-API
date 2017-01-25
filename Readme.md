@@ -23,8 +23,14 @@ npm test
 ```
 
 ### Import initial data
+Development database:
 ```bash
-NODE_ENV=development node dist/data/dataImporter.js
+gulp data-import --dev
+```
+
+Production database:
+```bash
+gulp data-import --prod
 ```
 
 ## Build
