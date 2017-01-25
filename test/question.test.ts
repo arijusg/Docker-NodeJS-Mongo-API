@@ -10,6 +10,8 @@ import { TestDataProvider } from '../test/setup/testDataProvider';
 import { QuestionModel } from '../src/models/QuestionModel';
 import { IQuestionModel } from '../src/models/IQuestionModel';
 
+import { AnswerModel } from '../src/models/AnswerModel';
+
 
 chai.use(chaiHttp);
 const expect = chai.expect;
@@ -55,6 +57,19 @@ describe('GET api/v1/questions', () => {
                 expect(question2.id).to.be.equal(testDataProvider.Data.Question2.id);
                 expect(question2.title).to.be.equal(testDataProvider.Data.Question2.title);
                 expect(question2.category).to.be.equal(testDataProvider.Data.Question2.category);
+            });
+    });
+
+    it('question should include answers', () => {
+        return chai.request(app).get('/api/v1/questions')
+            .then(res => {
+                var questionModel = <QuestionModel>res.body.find(question => question.id === testDataProvider.Data.Question1.id);
+                
+                expect(questionModel.answers).to.have.length.of('2');
+
+                var answerModel = <AnswerModel>questionModel.answers[0];
+
+                expect(answerModel.title).to.be.equal(testDataProvider.Data.Question1.answers[0].title);
             });
     });
 });
