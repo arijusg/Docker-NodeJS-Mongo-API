@@ -1,5 +1,5 @@
-export interface IQuestion {
-    id: number;
-    title: string;
-    category: string;
-};
+import mongoose = require("mongoose");
+
+import { IQuestionModel } from '../models/IQuestionModel';
+
+export interface IQuestion extends IQuestionModel, mongoose.Document { }

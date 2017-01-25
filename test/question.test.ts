@@ -7,12 +7,18 @@ import app from '../src/App';
 import { TestData } from '../test/setup/testData';
 import { TestDataProvider } from '../test/setup/testDataProvider';
 
+import { QuestionModel } from '../src/models/QuestionModel';
+import { IQuestionModel } from '../src/models/IQuestionModel';
+
+
 chai.use(chaiHttp);
 const expect = chai.expect;
 
 //Setup test data
 const testData = new TestData();
 const testDataProvider = new TestDataProvider(testData);
+
+
 
 describe('GET api/v1/questions', () => {
 

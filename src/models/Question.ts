@@ -1,6 +1,6 @@
 import mongoose = require("mongoose");
 
-import { IQuestionModel } from "./IQuestionModel";
+import { IQuestion } from "./IQuestion";
 
 
 var userSchema = new mongoose.Schema({
@@ -9,6 +9,6 @@ var userSchema = new mongoose.Schema({
     category: String
 });
 
-var Question = mongoose.model<IQuestionModel>("Question", userSchema);
+var Question = mongoose.model<IQuestion>("Question", userSchema);
 
 export = Question;

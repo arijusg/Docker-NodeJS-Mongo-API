@@ -1,4 +1,4 @@
-import {QuestionModel} from '../../src/models/QuestionModel';
+import { QuestionModel } from '../../src/models/QuestionModel';
 
 export class TestData {
 
