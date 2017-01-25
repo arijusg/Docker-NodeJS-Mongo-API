@@ -9,8 +9,8 @@ import * as MongoConfig from './MongoConfig';
 
 import { db } from './db';
 
+//Routers
 import QuestionRouter from './routes/QuestionRouter';
-import HeroRouter from './routes/HeroRouter';
 
 // Creates and configures an ExpressJS web server.
 class App {
@@ -36,7 +36,6 @@ class App {
   // Configure API endpoints.
   private routes(): void {
     this.express.use('/api/v1/questions', QuestionRouter);
-    this.express.use('/api/v1/hero', HeroRouter);
   }
 
   // Configure DB
