@@ -3,7 +3,7 @@ class MongooseConfig {
 }
 
 class MongoUri {
-    public production: string = 'mongodb://localhost/finq-production'
+    public production: string = 'mongodb://mongodb/finq-production'
     public development: string = 'mongodb://localhost/finq-development';
     public test: string = 'mongodb://localhost/finq-test'
 }

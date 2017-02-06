@@ -33,6 +33,17 @@ Production database:
 gulp data-import --prod
 ```
 
+
+## Run the application
+### Run
+```bash
+$ docker-compose up
+```
+### Teardown
+```bash
+$ docker-compose down 
+```
+
 ## Build
 ### Run API in docker
 ```
@@ -50,12 +61,14 @@ docker run \
 ### Build docker image
 
 ```bash
-$ docker build -t <your username>/finq-campaign .
+$ docker build -t finq-campaign .
 ```
-### Run the image 
+
+
+### Run the FINQ image 
 
 ```bash
-$ docker run -p 49160:3000 -d --name finq-campaign <your username>/finq-campaign
+$ docker run -p 49160:3000 -d --name finq-campaign finq-campaign
 ```
 
 ### Run MongoDB image
