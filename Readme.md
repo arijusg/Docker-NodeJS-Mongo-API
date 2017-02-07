@@ -71,7 +71,12 @@ $ docker build -t finq-campaign .
 $ docker run -p 49160:3000 -d --name finq-campaign finq-campaign
 ```
 
-### Run MongoDB image
+### Run Local MongoDB image
 ```bash
 docker run --name finq-mongo -d -p 27017:27017 mongo
+```
+
+### Run Local DynamoDB image
+```bash
+docker run -d -p 8000:8000 --name dynamodb peopleperhour/dynamodb
 ```

@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/aws-sdk": "0.0.42",
     "@types/body-parser": "0.0.33",
     "@types/chai": "^3.4.34",
     "@types/chai-http": "0.0.29",
@@ -30,6 +31,7 @@
     "yargs": "^6.6.0"
   },
   "dependencies": {
+    "aws-sdk": "^2.9.0",
     "body-parser": "^1.15.2",
     "debug": "^2.6.0",
     "express": "^4.14.0",
